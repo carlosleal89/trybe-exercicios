@@ -7,6 +7,5 @@
 5-Git add, Git commit
 6-Git push -u origin "nome da branch" 
 7-Vai no GitHub e faz um pull/request
-9-VsCode, volta pra branch main
-10-git pull origin main
+
 
