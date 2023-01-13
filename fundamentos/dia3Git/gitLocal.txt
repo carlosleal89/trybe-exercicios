@@ -1,0 +1,2 @@
+gitLocal.txt
+git init inicia um repositório local
