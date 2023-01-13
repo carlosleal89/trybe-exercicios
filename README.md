@@ -1,3 +1,2 @@
 # trybe-exercicios
-exercicios da trybe
-Meu repositório de exercicios
+Diretório criado para armazenar e registrar a evolução nos exercicios da Trybe
