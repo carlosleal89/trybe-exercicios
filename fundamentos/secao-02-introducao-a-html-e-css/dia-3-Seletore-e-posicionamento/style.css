@@ -12,13 +12,16 @@
 .baloon{
   position: absolute;
   top: 600px;
+  z-index: 1;
   
 }
 
-.speach {
-  position: absolute;
+.speach {  
   font-size: 25px;
-  top: 600px
+  position: absolute;
+  top: 630px;
+  left: 20px;
+  z-index: 2;  
 }
 
 .bowser {
