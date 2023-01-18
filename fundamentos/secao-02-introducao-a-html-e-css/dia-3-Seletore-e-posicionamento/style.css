@@ -12,11 +12,12 @@
 .baloon{
   position: absolute;
   top: 600px;
+  
 }
 
 .speach {
-  font-size: 25px;
   position: absolute;
+  font-size: 25px;
   top: 600px
 }
 
@@ -24,4 +25,5 @@
   width: 200px;
   position: absolute;
   top: 800px;
+  left: 260px;
 }
