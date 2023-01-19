@@ -1,0 +1,49 @@
+.orderedList {
+    background-color: yellow;
+    font-weight: bold;
+}
+.orderedList li:nth-of-type(even){
+    color: green;
+}
+.orderedList li:nth-of-type(odd){
+    text-transform: uppercase;
+}
+.header{
+    color: red;
+}
+h1.header{
+    font-size: 40px;
+    border: 1px solid black;
+}
+li{
+    font-size: 20px;
+}
+.unOrderedList li:nth-of-type(1){
+    color: blue;
+}
+.unOrderedList li:nth-of-type(2){
+    color: blue;
+    background-color: pink;
+}
+.unOrderedList li:nth-of-type(3){
+    color: blue;
+    background-color: pink;
+}
+.sitesList li:hover{
+    font-weight: bold;
+}
+.sitesList li a:hover[href*="stackoverflow"]{
+    color: orange;
+  }
+.sitesList li a:hover[href*="w3schools"]{
+    color: green;
+}
+.sitesList li a:hover[href*="mozilla"]{
+    color: black;
+}
+.sitesList li a:hover[href*="devdocs"]{
+    color: yellow;
+}
+.sitesList li a:hover[href*="trybe"]{
+    color: red;
+}
