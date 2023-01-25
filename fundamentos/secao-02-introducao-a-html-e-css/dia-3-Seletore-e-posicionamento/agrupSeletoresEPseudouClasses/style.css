@@ -1,0 +1,12 @@
+h1, p{
+    text-align: center;
+}
+ol:hover{
+    background-color: lightgreen;
+}
+li:active{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ol, ul{
+    list-style: none;
+}
