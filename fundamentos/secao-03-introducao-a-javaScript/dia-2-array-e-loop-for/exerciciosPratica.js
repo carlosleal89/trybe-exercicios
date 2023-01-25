@@ -68,6 +68,7 @@ for(let i=1;i<=25;i+=1){
     console.log(array[i]); // assim não funciona porque ele tenta imprimir uma posição do array que ainda não existe. teria que imprimir fora do laço for.
 }*/ 
 
+
 console.log("Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.");
 
 for(let i=0;i<array.length;i+=1){
