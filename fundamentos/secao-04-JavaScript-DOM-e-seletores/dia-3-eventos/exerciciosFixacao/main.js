@@ -37,7 +37,6 @@ function addClass(event) {
   event.target.className = 'tech';
 }
 
-
 textBox.addEventListener("change", changeText);
 
 function changeText(event) {
@@ -57,7 +56,6 @@ top3Spot.addEventListener("mouseover", () => {
 top3Spot.addEventListener("mouseout", () => {
   event.target.style.color = 'unset';
 })
-
 
 titleH1.addEventListener("mouseover", () => {
   event.target.style.fontSize = '60px'
