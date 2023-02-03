@@ -1,0 +1,50 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <main id="paiDoPai">
+  <section id="pai">
+    <section id="primeiroFilho"></section>
+    <section id="elementoOndeVoceEsta">
+      <h2>Elemento que você deve remover</h2>
+      <section id="primeiroFilhoDoFilho"></section>
+      <section id="segundoEUltimoFilhoDoFilho"></section>
+    </section>
+    Atenção!
+    <section id="terceiroFilho"></section>
+    <section id="quartoEUltimoFilho"></section>
+  </section>
+</main> 
+<script>
+    let ondeVoceEsta = document.querySelector('#elementoOndeVoceEsta');
+    ondeVoceEsta.parentNode.style.color = 'red';
+    document.querySelector('#primeiroFilhoDoFilho').innerHTML = 'Oi';
+    let primeiroFilho = document.querySelector('#pai').firstElementChild; //Acesse o primeiroFilho a partir de pai.
+    let primeiroFilho1 = document.querySelector('#elementoOndeVoceEsta').previousElementSibling; //Acesse o primeiroFilho a partir de pai.
+    let atencao = document.querySelector('#elementoOndeVoceEsta').nextSibling; //acesse o texto Atenção! a partir de elementoOndeVoceEsta.
+    let terceiroFilho = document.querySelector('#elementoOndeVoceEsta').nextElementSibling; //Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta.
+    terceiroFilho = document.querySelector('#pai').children[2]; //Agora acesse o terceiroFilho a partir de pai.
+
+    let brother = document.getElementById('pai'); //Crie um irmão para elementoOndeVoceEsta.
+    let brother1 = document.createElement('section');
+    brother.appendChild(brother1);
+    brother1.id = 'irmao1';
+    let filho = document.getElementById('elementoOndeVoceEsta'); //Crie um filho para elementoOndeVoceEsta.
+    let filhoElemento = document.createElement('section');
+    filho.appendChild(filhoElemento);
+    filhoElemento.id = 'terceiroFilho';
+    let filhoDoFilho = document.createElement('section'); //Crie um filho para primeiroFilhoDoFilho.
+    filho.firstElementChild.appendChild(filhoDoFilho);
+    filhoDoFilho.id = 'filharedo';
+    filhoDoFilho.parentNode.parentNode.nextElementSibling; //A partir desse filho criado, acesse terceiroFilho.
+
+    let element = document.querySelector('#elementoOndeVoceEsta').firstElementChild;
+    document.querySelector('#elementoOndeVoceEsta').removeChild(element);
+
+</script>    
+</body>
+</html>
