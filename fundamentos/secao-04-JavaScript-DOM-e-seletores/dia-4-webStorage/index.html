@@ -2,24 +2,32 @@
 <html lang="pt-br">
   <head>
   <meta charset="UTF-8">
-  <title>addEventListener</title>
+  <title>WebStorage</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header> 
-      <h1>Spotrybefy</h1>
+    <header id="header">
+      <div id="bgColor">Cor de fundo
+      <button>Red</button>
+      <button>Blue</button>
+      </div>
+      
+      <ul class="btnStyles" id="btnBg">Cor de fundo</ul>
+      <ul class="btnStyles">Cor da fonte</ul>
+      <ul class="btnStyles">Tamanho da fonte</ul>
+      <ul class="btnStyles">Espaçamento entre linhas</ul>
+      <ul class="btnStyles">Tipo da fonte</ul>
     </header>
-    <main>
-      <h3 id="my-spotrybefy">Meu top 3 do Spotrybefy</h3>
-      <ul class="container">
-        <li class="tech" id="first-li">Aqui está a primeira tecnologia que mais gostei.</li>
-        <li id="second-li">Aqui está a segunda tecnologia que mais gostei.</li>
-        <li id="third-li">Aqui está a terceira tecnologia que mais gostei.</li>
-      </ul>
-      <input type="text" id="input" placeholder="Alterar a primeira tecnologia">      
-    </main>
-    <script src="main.js"></script>
+    <section>
+      <h1 id="title">O Hobbit</h1>
+      <h3 id="subTitle">Trecho de O Hobbit, - JRR Tolkien.</h3>
+      <p id="paragraph"> - Aquela é A Montanha? - perguntou Bilbo numa voz solene, olhando para ela com os olhos esbugalhados. Nunca vira algo que parecera tão grande.
+          - Claro que não! - disse Balin. - Ali é apenas o começo das Montanhas Sombrias, e nós temos que achar um meio de atravessá-las, ou passar por cima ou por baixo delas…        
+          - Oh! - disse Bilbo, e naquele mesmo momento sentiu o maior cansaço que lembrava já ter sentido. Estava mais uma vez pensando em sua confortável cadeira diante do fogo, na sala favorita de sua toca, e na chaleira cantando. Não pela última vez.</p>
+    </section>
+   
+  <script src="main.js"></script>
   </body>
 </html>
