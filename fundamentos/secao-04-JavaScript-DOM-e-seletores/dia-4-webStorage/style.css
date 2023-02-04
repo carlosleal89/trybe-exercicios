@@ -1,0 +1,24 @@
+#header {
+    display: inline-block;
+    border: 1.5px solid green ;
+    margin: auto;
+    width: 100%;    
+}
+
+.btn-styles {
+    display: inline-block;
+    margin-left: 5%;   
+}
+
+#title {
+    text-align: center;
+}
+
+#sub-title {
+    text-align: center;
+}
+
+#paragraph {
+    text-align: center;
+    line-height: 50px;
+}
