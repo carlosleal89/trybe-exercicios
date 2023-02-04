@@ -1,24 +1,18 @@
 #header {
-    display: inline-block;
-    border: 1.5px solid green ;
-    margin: auto;
-    width: 100%;    
+    
+    width: 100%;
+    
+    border: 1.5px solid green;
 }
 
-.btn-styles {
+.btnStyles {
     display: inline-block;
-    margin-left: 5%;   
 }
 
 #title {
     text-align: center;
 }
 
-#sub-title {
-    text-align: center;
-}
-
-#paragraph {
-    text-align: center;
-    line-height: 50px;
+#bgColor {
+    display: block;
 }
