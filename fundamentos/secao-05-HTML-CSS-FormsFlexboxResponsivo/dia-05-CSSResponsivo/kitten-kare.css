@@ -90,3 +90,63 @@ body {
       display: none;
     }
   }
+  @media screen and (min-width: 240px) {
+    #aside {
+      display: none;
+    }
+    body {
+      padding: 0;
+    }
+    img {
+      max-width: 80%;
+    }
+    #content {
+      width: 100%;
+    }
+    p {
+      max-width: 80%;
+    }
+    #navigation ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+    }
+    #header {
+      position: fixed;
+      width: 100%;
+    }
+    #navigation {
+      padding-top: 90px ;
+    }
+   
+  }
+  @media screen and (min-width: 360px) {
+    #aside {
+      display: none;
+    }
+    body {
+      padding: 0;
+    }
+    img {
+      max-width: 80%;
+    }
+    #content {
+      width: 100%;
+    }
+    p {
+      max-width: 80%;
+    }
+    #navigation ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+    }
+    #header {
+      position: fixed;
+      width: 100%;
+    }
+    #navigation {
+      padding-top: 90px ;
+    }
+   
+  }
