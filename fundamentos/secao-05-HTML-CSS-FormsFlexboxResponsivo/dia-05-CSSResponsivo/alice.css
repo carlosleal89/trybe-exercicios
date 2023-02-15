@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: azure;
+        margin: 10px;      
+    }
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+    header p {
+        font-weight: bold;
+        margin-left: 20px;
+        font-size: 1.9rem;
+    }
+    .asides {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+@media screen and (min-width: 992px) {
+    body {
+        background-color: aquamarine;
+        margin: 10px;      
+    }
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+    header p {
+        font-weight: bold;
+        margin-left: 20px;
+        font-size: 1.9rem;
+    }
+    .asides {
+        display: flex;
+        justify-content: space-around;
+    }
+    .main-content  {
+        max-width: 80%;
+         display: flex;
+        margin: auto;
+        flex-direction: column;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: aqua;
+          
+    }
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+    header p {
+        font-weight: bold;
+        margin-left: 20px;
+        font-size: 1.9rem;
+    }
+    .main-content {
+        max-width: 80%;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+    }
+   
+}
