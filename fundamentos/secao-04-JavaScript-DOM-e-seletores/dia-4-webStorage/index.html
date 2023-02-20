@@ -1,33 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
   <meta charset="UTF-8">
   <title>WebStorage</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header id="header">
-      <div id="bgColor">Cor de fundo
-      <button>Red</button>
-      <button>Blue</button>
-      </div>
-      
-      <ul class="btnStyles" id="btnBg">Cor de fundo</ul>
-      <ul class="btnStyles">Cor da fonte</ul>
-      <ul class="btnStyles">Tamanho da fonte</ul>
-      <ul class="btnStyles">Espaçamento entre linhas</ul>
-      <ul class="btnStyles">Tipo da fonte</ul>
+</head>
+
+<body id="body">
+  <header id="header">
+    <div id="div-container">
+      <p>Cor de fundo</p>
+      <button class="bgColorBtn">Red</button>
+      <button class="bgColorBtn">Blue</button>
+      <button class="bgColorBtn">White</button>
+      <button class="bgColorBtn">Black</button>
+      <button class="bgColorBtn">Green</button>
+    </div>
+    <div id="div-container">
+      <p>Cor da Fonte</p>
+      <button class="colorBtn">Black</button>
+      <button class="colorBtn">Red</button>
+      <button class="colorBtn">White</button>
+    </div>
+    <div id="div-container">
+      <p>Tamanho da Fonte</p>
+      <button class="fontSizeBtn">8pt</button>
+      <button class="fontSizeBtn">10pt</button>
+      <button class="fontSizeBtn">12pt</button>
+      <button class="fontSizeBtn">14pt</button>
+      <button class="fontSizeBtn">20pt</button>
+    </div>
+    <div id="div-container">
+      <p>Espaçamento entre as linhas</p>
+      <button class="lineSpacingBtn">1</button>
+      <button class="lineSpacingBtn">Normal</button>
+      <button class="lineSpacingBtn">1.5</button>
+      <button class="lineSpacingBtn">2.0</button>
+      <button class="lineSpacingBtn">3.0</button>
+    </div>
+    <div id="div-container">
+      <p>Tipo da Fonte</p>
+      <button class="fontFamilyBtn">Arial</button>
+      <button class="fontFamilyBtn">Times New Roman</button>
+    </div>
     </header>
-    <section>
-      <h1 id="title">O Hobbit</h1>
-      <h3 id="subTitle">Trecho de O Hobbit, - JRR Tolkien.</h3>
-      <p id="paragraph"> - Aquela é A Montanha? - perguntou Bilbo numa voz solene, olhando para ela com os olhos esbugalhados. Nunca vira algo que parecera tão grande.
-          - Claro que não! - disse Balin. - Ali é apenas o começo das Montanhas Sombrias, e nós temos que achar um meio de atravessá-las, ou passar por cima ou por baixo delas…        
-          - Oh! - disse Bilbo, e naquele mesmo momento sentiu o maior cansaço que lembrava já ter sentido. Estava mais uma vez pensando em sua confortável cadeira diante do fogo, na sala favorita de sua toca, e na chaleira cantando. Não pela última vez.</p>
-    </section>
-   
-  <script src="main.js"></script>
-  </body>
+  <section id="section">
+    <h1 id="title">O Hobbit</h1>
+    <h3 id="subTitle">Trecho de O Hobbit, - JRR Tolkien.</h3>
+    <p id="paragraph"> - Aquela é A Montanha? - perguntou Bilbo numa voz solene, olhando para ela com os olhos
+      esbugalhados. Nunca vira algo que parecera tão grande.
+      - Claro que não! - disse Balin. - Ali é apenas o começo das Montanhas Sombrias, e nós temos que achar um meio de
+      atravessá-las, ou passar por cima ou por baixo delas…
+      - Oh! - disse Bilbo, e naquele mesmo momento sentiu o maior cansaço que lembrava já ter sentido. Estava mais uma
+      vez pensando em sua confortável cadeira diante do fogo, na sala favorita de sua toca, e na chaleira cantando. Não
+      pela última vez.</p>
+  </section>
+
+ 
+</body>
+<script src="main.js"></script>
+
 </html>

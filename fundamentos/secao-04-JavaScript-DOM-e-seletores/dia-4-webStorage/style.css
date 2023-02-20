@@ -1,18 +1,20 @@
-#header {
-    
-    width: 100%;
-    
+#header {    
+    width: 100%;    
     border: 1.5px solid green;
+    display: flex;
+    justify-content: space-around;
 }
 
-.btnStyles {
-    display: inline-block;
+#div-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
 }
 
 #title {
     text-align: center;
+    font-size: 2rem;
 }
 
-#bgColor {
-    display: block;
-}
+
