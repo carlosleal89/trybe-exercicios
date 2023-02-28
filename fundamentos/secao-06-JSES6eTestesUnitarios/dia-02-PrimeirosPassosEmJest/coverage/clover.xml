@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1677600134474" clover="3.2.0">
+  <project timestamp="1677600134474" name="All files">
+    <metrics statements="70" coveredstatements="69" conditionals="24" coveredconditionals="23" methods="11" coveredmethods="11" elements="105" coveredelements="103" complexity="0" loc="70" ncloc="70" packages="2" files="7" classes="7"/>
+    <package name="dia-02-PrimeirosPassosEmJest">
+      <metrics statements="14" coveredstatements="13" conditionals="4" coveredconditionals="3" methods="4" coveredmethods="4"/>
+      <file name="loginValidation.js" path="/home/carlos/Documentos/Trybe/trybe-exercicios/fundamentos/secao-06-JSES6eTestesUnitarios/dia-02-PrimeirosPassosEmJest/loginValidation.js">
+        <metrics statements="12" coveredstatements="11" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+      <file name="sum.js" path="/home/carlos/Documentos/Trybe/trybe-exercicios/fundamentos/secao-06-JSES6eTestesUnitarios/dia-02-PrimeirosPassosEmJest/sum.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="dia-02-PrimeirosPassosEmJest.Agora a pratica">
+      <metrics statements="56" coveredstatements="56" conditionals="20" coveredconditionals="20" methods="7" coveredmethods="7"/>
+      <file name="ex1.js" path="/home/carlos/Documentos/Trybe/trybe-exercicios/fundamentos/secao-06-JSES6eTestesUnitarios/dia-02-PrimeirosPassosEmJest/Agora a pratica/ex1.js">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="13" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+      <file name="ex2.js" path="/home/carlos/Documentos/Trybe/trybe-exercicios/fundamentos/secao-06-JSES6eTestesUnitarios/dia-02-PrimeirosPassosEmJest/Agora a pratica/ex2.js">
+        <metrics statements="7" coveredstatements="7" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+        <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="4" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="ex3.js" path="/home/carlos/Documentos/Trybe/trybe-exercicios/fundamentos/secao-06-JSES6eTestesUnitarios/dia-02-PrimeirosPassosEmJest/Agora a pratica/ex3.js">
+        <metrics statements="19" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="55" type="stmt"/>
+        <line num="6" count="55" type="stmt"/>
+        <line num="8" count="55" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="15" type="stmt"/>
+        <line num="11" count="40" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+      </file>
+      <file name="ex4.js" path="/home/carlos/Documentos/Trybe/trybe-exercicios/fundamentos/secao-06-JSES6eTestesUnitarios/dia-02-PrimeirosPassosEmJest/Agora a pratica/ex4.js">
+        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="2" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="13" count="9" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+      <file name="ex5.js" path="/home/carlos/Documentos/Trybe/trybe-exercicios/fundamentos/secao-06-JSES6eTestesUnitarios/dia-02-PrimeirosPassosEmJest/Agora a pratica/ex5.js">
+        <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="178" type="stmt"/>
+        <line num="7" count="178" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="14" type="stmt"/>
+        <line num="11" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
