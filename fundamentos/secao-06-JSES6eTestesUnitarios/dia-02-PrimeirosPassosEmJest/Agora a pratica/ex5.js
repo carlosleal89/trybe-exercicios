@@ -4,7 +4,7 @@ function hydrate(numBebida) {
     console.log(string);
     for (let num of string) {
         let isNum = parseInt(num);
-        if (!isNaN(isNum)) {
+        if (!isNaN(isNum)) { // verifica se é um numero
             numTotal += isNum;
         }
     }
