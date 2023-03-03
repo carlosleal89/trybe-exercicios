@@ -60,18 +60,16 @@ const mage = {
       dragon.damage = dragonDamage();
       mage.healthPoints -= dragon.damage;
       warrior.healthPoints -= dragon.damage;
-    }
+    },
+    battleTurn: () => battleMembers,
   };
+
   gameActions.warrior(warriorDamage);
   gameActions.mage(mageDamage);
   gameActions.dragon(dragonDamage);
 
-  console.log(dragon.healthPoints);
-  console.log(warrior.damage);
-  console.log(mage.damage);
-  console.log(mage.mana);
-  console.log(mage.healthPoints);
-  console.log(warrior.healthPoints);
+  console.log(gameActions.battleTurn());
+
 
 
   module.exports = {mage, warrior, dragon, gameActions, warriorDamage, mageDamage, dragonDamage};
