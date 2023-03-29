@@ -3,7 +3,7 @@ import AboutMe from './about';
 
 class App extends React.Component {
   render() {
-    return (<AboutMe></AboutMe>);
+    return (<AboutMe />);
   }
 }
 
