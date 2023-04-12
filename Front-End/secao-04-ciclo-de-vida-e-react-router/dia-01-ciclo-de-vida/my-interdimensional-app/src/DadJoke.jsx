@@ -17,7 +17,7 @@ class DadJoke extends React.Component {
   async fetchJoke() {
     this.setState(
       { loading: true }, // Primeiro parâmetro da setState()!
-      async () => {
+      async () => { // segundo parametro da setState()
       const requestHeaders = { headers: { Accept: 'application/json' } }
       const requestReturn = await fetch('https://icanhazdadjoke.com/', requestHeaders)
       const requestObject = await requestReturn.json();
