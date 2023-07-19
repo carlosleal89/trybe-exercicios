@@ -6,12 +6,26 @@ const app = express();
 app.use(express.json());
 
 const OK = 200;
+const OK_NO_ANSWER = 204;
 const NOT_FOUND = 400;
 
 const moviesListData = async () => {
   const data = await readData(path.resolve(__dirname, './movies.json'));
   return data;
 };
+
+app.get('/movies/search/', async (req, res) => {
+  const { q } = req.query;
+  const loweredQuery = q.toLowerCase();
+  const moviesList = await moviesListData();
+  const queryResult = moviesList.filter((movieEl) => {
+    if (movieEl.movie.toLowerCase().includes(loweredQuery)) {
+      return movieEl;
+    }
+  });
+  console.log(queryResult);
+  res.status(OK).json({ queryResult });
+});
 
 app.get('/movies/:id', async (req, res) => {
   const { id } = req.params;
