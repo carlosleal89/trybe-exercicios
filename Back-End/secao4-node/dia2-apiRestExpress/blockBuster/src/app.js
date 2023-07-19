@@ -30,13 +30,33 @@ app.get('/movies', async (req, res) => {
 
 app.post('/movies', async (req, res) => {
   const moviesList = await moviesListData();
-  const { movie, price } = req.body;
+  const { id, movie, price } = req.body;
   moviesList.push({
+    id,
     movie,
     price,
   });
   await writeData(moviesList, '../movies.json');
-  res.status(201).json({ movie, price });
+  res.status(OK).json({ id, movie, price });
+});
+
+app.put('/movies/:id', async (req, res) => {
+  const moviesList = await moviesListData();
+  const { movie, price } = req.body;
+  const { id } = req.params;
+  const updatedMovieList = moviesList.map((movieEl) => {
+    if (movieEl.id === Number(id)) {
+      const updatedMovie = {
+        ...movieEl,
+        movie,
+        price,
+      };
+      return updatedMovie;
+    }
+    return movieEl;
+  });
+  await writeData(updatedMovieList, '../movies.json');
+  res.status(OK).json({ id, movie, price });
 });
 
 module.exports = app;
