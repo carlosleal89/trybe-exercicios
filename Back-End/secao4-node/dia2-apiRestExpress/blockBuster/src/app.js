@@ -59,4 +59,12 @@ app.put('/movies/:id', async (req, res) => {
   res.status(OK).json({ id, movie, price });
 });
 
+app.delete('/movies/:id', async (req, res) => {
+  const moviesList = await moviesListData();
+  const { id } = req.params;
+  const filteredMovieList = moviesList.filter((movie) => movie.id !== Number(id));
+  await writeData(filteredMovieList, '../movies.json');
+  res.status(204).end();
+});
+
 module.exports = app;
