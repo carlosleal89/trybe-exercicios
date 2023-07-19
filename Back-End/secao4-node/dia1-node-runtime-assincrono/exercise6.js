@@ -5,7 +5,6 @@ async function readData() {
   try {
     const response = await readFile(path.resolve(__dirname, './simpsons.json'));
     const data = JSON.parse(response);
-    // console.log(data);
     return data;
   } catch(error) {
     console.log(error.message);
