@@ -11,6 +11,15 @@ async function readData(filePathName) {
     }
 }
 
+async function writeData(file, filePathName) {
+    try {
+        await writeFile(path.resolve(__dirname, filePathName), JSON.stringify(file));
+    } catch (error) {
+        console.error('ocorreu um erro ao inserir os dados', error.message);
+    }
+}
+
 module.exports = {
     readData,
+    writeData,
 };
